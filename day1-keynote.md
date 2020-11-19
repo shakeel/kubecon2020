@@ -1,4 +1,4 @@
-# My Notes 
+# Day One Notes 
 
 Some interesting projects were mentioned in the various keynotes that are of interest to me.
 
@@ -25,4 +25,18 @@ Rook uses the power of the Kubernetes platform to deliver its services via a Kub
 
 ### Multiple Storage Providers
 Rook orchestrates multiple storage solutions, each with a specialized Kubernetes Operator to automate management. Choose the best storage provider for your scenarios, and Rook ensures that they all run well on Kubernetes with the same, consistent experience.
+
+### Rook and Ceph 
+
+Rook uses Ceph for distributed file system.
+
+## [MinIO - High Performance Object Storage](https://docs.min.io/)
+
+It is API compatible with Amazon S3 cloud storage service. Use MinIO to build high performance infrastructure for machine learning, analytics and application data workloads.
+
+* https://docs.min.io/docs/minio-gateway-for-s3.html
+* https://docs.min.io/docs/minio-gateway-for-azure.html
+* https://docs.min.io/docs/minio-gateway-for-nas.html
+* https://docs.min.io/docs/deploy-minio-on-kubernetes.html
+
 
